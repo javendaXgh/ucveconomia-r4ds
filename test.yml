@@ -1,0 +1,115 @@
+project:
+  type: website
+  resources:
+    - scripts/
+
+website:
+  page-navigation: false
+  title: "UCV EconomíaR4DS"
+  description: "Ciencia de Datos Basada en Programación en R para Economistas"
+  site-url: https://ucveconomia-r4ds-2024-2.netlify.app/
+  repo-url: https://github.com/orgs/UCVeconomia2024-2/
+  favicon: images/favicon.png
+  google-analytics: "G-5BVQ49LXJG"
+  
+  open-graph: true
+
+  sidebar:
+    background: "#a01f35" #"#E46C4E"
+    logo: "images/logo_curso_sinBG.png"
+    pinned: true
+    align: center 
+    tools:
+      - icon: envelope
+        text: "Correo"
+        href: "mailto:ucveconomiar4ds@gmail.com"
+      - icon: discord
+        href: https://discord.gg/fxXcEHH2
+        text: "Discord"
+      - icon: github
+        href: https://github.com/orgs/UCVeconomia2024-2/dashboard
+        text: "GitHub"
+      - icon: cloud
+        href: https://posit.cloud/
+        text: "Posit Cloud"
+
+
+    style: docked
+    # search: true
+    collapse-level: 1
+
+    contents:
+      - section: "Sobre el Curso"
+        contents:
+          - href: curso-infogeneral.qmd
+            text: Información General
+          - href: curso-programa.qmd
+            text: Contenido
+          # - href: curso-equipo.qmd
+          #   text: Equipo de Profesores
+          - href: index.qmd
+            text: Actividades
+
+          # - href: faq.qmd
+          #   text: Preguntas Frecuentes
+      - section: "Prácticas"
+        contents:
+
+          - href: practicas/clase4_apoyo.qmd
+            text: clase 4 / apoyo
+          - href: practicas/clase3_apoyo.qmd
+            text: clase 5 / apoyo
+          - href: practicas/clase6_v2.qmd
+            text: clase 6 / versión reporte
+          - href: practicas/clase6_pract1.qmd
+            text: clase 6 / práctica 1
+          - href: practicas/clase6_pract2.qmd
+            text: clase 6 / práctica 2
+          - href: practicas/clase_8.qmd
+            text: clase 8 / versión reporte
+          - href: practicas/clase12.qmd
+            text: clase 12 / versión reporte
+          - href: practicas/clase15.qmd
+            text: clase 15 / versión reporte
+      - section: "Proyectos"
+        contents:
+          - href: project/Ensayo.qmd
+            text: "Ensayo: Propuesta de Proyecto de CD"
+          - href: project/proyecto-1.qmd
+            text: "Proyectos mitad de curso"
+          - href: project/proyecto-2.qmd
+            text: "Proyecto Final de Curso"
+          - href: proyectos/merlab/merlab.qmd
+          - href: proyectos/merbur/merbur.qmd
+            text: "Análisis de Acciones BVC"
+          - href: proyectos/atm/atm.qmd
+            text: "Análisis Funcionamiento ATM"
+          - href: proyectos/opep/opep.qmd
+            text: "Tendencias OPEP"
+            
+          
+
+
+  page-footer:
+    right: "Este sitio fue elaborado con [Quarto](https://quarto.org/) inspirado en el site [sta199 de Mine Çetinkaya-Rundel](https://mine-cr.com/teaching/sta199/)"
+    background: "#5d6d74"
+    left: |
+      [![](images/ee.png){fig-alt="Escuela de Economía" width=75px}](http://www.ucv.ve/economia)
+lang: es    
+format:
+  html:
+    embed-resources: true
+    include-before-body: 'google_tags/gtag.js'
+    theme:
+      light: [cosmo, style/stat101_of.scss]
+      dark: [cosmo,  style/dark.scss]
+    linkcolor: "#E63B2E"
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Atkinson Hyperlegible"
+
+# execute:
+#   freeze: auto
+
+editor: visual
