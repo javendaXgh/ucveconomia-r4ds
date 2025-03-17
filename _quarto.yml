@@ -7,7 +7,7 @@ website:
   page-navigation: false
   title: "UCV EconomíaR4DS"
   description: "Ciencia de Datos Basada en Programación en R para Economistas"
-  site-url: https://ucveconomia-r4ds.netlify.app
+  site-url: https://ucveconomiar4ds.netlify.app
   repo-url: https://github.com/javendaXgh/ucveconomia-r4ds.com
   favicon: images/favicon.png
   google-analytics: "G-5BVQ49LXJG"
