@@ -22,16 +22,9 @@ website:
       - icon: envelope
         text: "Correo"
         href: "mailto:ucveconomiar4ds@gmail.com"
-      - icon: discord
-        href:  https://discord.gg/fxXcEHH2
-        text: "Discord"
       - icon: github
         href: https://github.com/orgs/UCVeconomia2024-2/dashboard
         text: "GitHub"
-      - icon: cloud
-        href: https://posit.cloud/
-        text: "Posit Cloud"
-
 
     style: docked
     search: false
