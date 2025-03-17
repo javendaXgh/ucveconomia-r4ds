@@ -5,6 +5,6 @@ title: "Enlaces Ediciones"
 Para acceder a las distintas ediciones del curso monográfico, seleccionar enlace de interés
 
 |   | Período | enlace |
-|:--:|----|----|
+|:--------------:|----------------|---------------------------------------|
 | ![](images/logo_curso.png){style="center" width="98"} | 2024-2 | <https://ucveconomia-r4ds-2024-2.netlify.app> |
-| ![](images/logo_2025_original-mini.png){width="74"} | 2025-1 | [https://ucveconomia-r4ds-2025-1.netlify.app](https://ucveconomia-r4ds-2024-2.netlify.app) |
+| ![](images/logo_2025_original-mini.png){width="74"} | 2025-1 | <https://ucveconomia-r4ds-2025-1.netlify.app> |
